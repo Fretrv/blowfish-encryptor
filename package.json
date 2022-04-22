@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "main": "app/main.js",
-  "description": "blowfish encryptor/decryptor on electron+vite+svelte",
+  "description": "blowfish encryptor/decryptor",
   "license": "MIT",
   "author": "Fretrv",
   "scripts": {

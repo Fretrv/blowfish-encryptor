@@ -16,13 +16,14 @@ function createWindow() {
       nodeIntegration: true,
     },
   });
-
   if (isDev) {
     mainWindow.loadURL('http://localhost:3000');
     mainWindow.webContents.openDevTools();
   } else {
     mainWindow.loadFile(path.join(__dirname, 'build', 'index.html'));
   }
+  mainWindow.setMenuBarVisibility(false);
+
 }
 
 
